@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import*
-from PyQt5.uic import loadUi
+from PyQt6.QtWidgets import*
+from PyQt6.uic import loadUi
 
 from  matplotlib.backends.backend_qt5agg  import  ( NavigationToolbar2QT  as  NavigationToolbar )
 
@@ -48,4 +48,4 @@ class MatplotlibWidget(QMainWindow):
 app = QApplication([])
 window = MatplotlibWidget()
 window.show()
-app.exec_()
+app.exec()
